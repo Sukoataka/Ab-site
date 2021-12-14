@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+.navBar {
+  padding: 0px;
+  width: 99vw;
+  height: 11vh;
+  z-index: 1000;
+  position: absolute;
+}
+
+.Logo {
+  position: absolute;
+  margin-left: 0vw;
+  margin-top: -1vh;
+  height: 14vh;
+  transform: rotate(7deg);
+}
+
+.Header {
+  font-size: 3.5vw;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  margin-top: 1.7vh;
+  margin-left: 5.6vw;
+  color: #F4B300;
+}
+
+.tag {
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  color: #373837;
+  font-size: 2.5vw;
+}
+
+.navBeg {
+  position: absolute;
+  margin-top: 1vh;
+  margin-left: 28vw;
+}
+
+.navEnd {
+  position: absolute;
+  margin-top: 5.5vh;
+  margin-left: 92.2vw;
+}
+
+
+@keyframes fadeInDown {
+  0% {
+      transform: translate3d(0,-40px,0)
+  }
+
+  100% {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+      transform: translate3d(0,-40px,0)
+  }
+
+  100% {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both
+}
+
+.fadeInDown {
+  opacity: 0;
+  animation-name: fadeInDown;
+  -webkit-animation-name: fadeInDown;
+}
+
+
