@@ -4,7 +4,6 @@
   padding: 0px;
   width: 99vw;
   height: 11vh;
-  z-index: 1000;
   position: absolute;
 }
 
@@ -13,7 +12,6 @@
   margin-left: 0vw;
   margin-top: -1vh;
   height: 14vh;
-  transform: rotate(7deg);
 }
 
 .Header {
@@ -42,6 +40,13 @@
   position: absolute;
   margin-top: 5.5vh;
   margin-left: 92.2vw;
+}
+
+@media screen and (max-width: 768px) {
+  .Logo {
+    margin-left: -1.5vw;
+    height: 10.5vh;
+  }
 }
 
 
